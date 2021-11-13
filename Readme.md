@@ -32,3 +32,13 @@ WWLは6つの下位尺度の全てのペア15組について，ワークロー�
 <div align="center">
 <img src="https://latex.codecogs.com/gif.latex?WWL=\frac{\sum_{i-1}^{6}(wivi)}{\sum_{i-1}^{6}wi}"/> 
 </div>
+
+## アプリの利用方法
+1. アプリを起動してNASA-TLXの評価を開始する
+2. 評価終了のメッセージ表示後、結果はデバイス内の`data/data/com.slpl.nasa_tlx/files/RatingScale.csv`に保存される
+   - すでにcsvファイルが存在する場合は、前回の結果の次の行から記録されていく
+3. アプリを手動で終了する
+
+実験協力者毎に1-3を繰り返す。
+評価結果のcsvファイルはAndroidStudioのDevice File Explorerか、またはadbコマンドで端末から取り出す。
+
